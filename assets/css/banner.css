@@ -1,0 +1,18 @@
+.banner{
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.banner__titulo{
+  color: var(--font-titulos);
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.7rem;
+  margin-bottom: .5rem;
+}
+
+.banner__texto{
+  font-size: .8rem;
+  line-height: 1rem;
+}

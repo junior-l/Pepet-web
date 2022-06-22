@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pepet - clinica e petshop</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/cabecalho.css">
+  <link rel="stylesheet" href="assets/css/logo.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/banner.css">
+  <link rel="stylesheet" href="assets/css/servicos.css">
+  <link rel="stylesheet" href="assets/css/shop.css">
+  <link rel="stylesheet" href="assets/css/sobre.css">
+  <link rel="stylesheet" href="assets/css/contato.css">
+  <link rel="stylesheet" href="assets/css/rodape.css">
+</head>
+
+<body>
+  <header id="cabecalho">
+    <a href=""><img class="logo" src="assets/image/logo.png"></a>
+    <nav id="menu">
+      <button id="menu__btn">Menu
+       <span id="menu__btn--hamburger"></span>
+      </button> 
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#sobre">Sobre</a></li>
+        <li class="menu__item"><a class="menu__link" href="#servicos">Serviços</a></li>
+        <li class="menu__item"><a class="menu__link" href="#shop">Shop</a></li>
+        <li class="menu__item"><a class="menu__link" href="">Contato</a></li>
+        <li class="menu__item menu__item--emergencia" >
+          <img src="./assets/icons/telefone.png" class="menu__item--img" alt="telefone emergência">
+          <a class="menu__link" href="tel:+551155712751">Emergência</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="banner">
+      <h1 class="banner__titulo">Seu melhor amigo<br>é a nossa paixão</h1>
+      <p class="banner__texto">Queremos fazer parte da vida do seu pet.<br>
+      Cuidar como você cuida<br>Amar como você Ama.</p>
+    </section>
+
+    <section id="servicos">
+      <h2 class="servicos__titulo titulo__default">Serviços</h2>
+        <p class="servicos__titulo--texto">
+          Temos serviços voltados para todas as situações que seu pet necessitar
+          desde emergência 24hs ao agendamento de exames. <b>Veja mais</b>
+        </p>
+    
+      <ul class="servicos__lista">
+        <li class="servicos__item">
+          <a href="#">
+          <img src="./assets/icons/banhotosa1.png" class="servicos__item--img"alt="">  
+          <h3 class="servicos__item--titulo">banho e tosa</h3>
+          </a>
+        </li>
+        <li class="servicos__item">
+          <a href="#">
+          <img src="./assets/icons/emergencia.png" class="servicos__item--img"alt="">  
+          <h3 class="servicos__item--titulo">emergência</h3>
+          </a>
+        </li>
+        <li class="servicos__item">
+          <a href="#">
+          <img src="./assets/icons/castração.png" class="servicos__item--img"alt="">  
+          <h3 class="servicos__item--titulo">castração</h3>
+          </a>
+        </li>
+        <li class="servicos__item">
+          <a href="#">
+          <img src="./assets/icons/exame.png" class="servicos__item--img"alt="">  
+          <h3 class="servicos__item--titulo">exames</h3>
+          </a>
+        </li>
+        <li class="servicos__item">
+          <a href="#">
+          <img src="./assets/icons/internação.png" class="servicos__item--img"alt="">  
+          <h3 class="servicos__item--titulo">internação</h3>
+          </a>
+        </li>
+        <li class="servicos__item">
+          <a href="#">
+          <img src="./assets/icons/hospedagem.png" class="servicos__item--img"alt="">  
+          <h3 class="servicos__item--titulo">hospedagem</h3>
+          </a>
+        </li>
+        <li class="servicos__item">
+          <a href="#">
+          <img src="./assets/icons/vacina.png" class="servicos__item--img"alt="">  
+          <h3 class="servicos__item--titulo">vacinação</h3>
+          </a>
+        </li>
+        <li class="servicos__item">
+          <a href="#">
+          <img src="./assets/icons/atendimento oline.png" class="servicos__item--img"alt="">  
+          <h3 class="servicos__item--titulo">atendimento online</h3>
+          </a>
+        </li>
+    </section>
+    <section id="shop">
+      <h2 class="shop__titulo titulo__default">Shop</h2>
+      <div class="card">
+        <h3 class="card__titulo">Ração</h3>
+        <ul class="card__lista">
+          <li class="card__item">gatos</li>
+          <li class="card__item">cães</li>
+          <li class="card__item">roedores</li>
+          <li class="card__item">aves</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="card__titulo">Acessorios</h3>
+        <ul class="card__lista">
+          <li class="card__item">cadeiras</li>
+          <li class="card__item">roupas</li>
+          <li class="card__item">diversão</li>
+          <li class="card__item">camas</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="card__titulo">Higiene</h3>
+        <ul class="card__lista">
+          <li class="card__item">pelos</li>
+          <li class="card__item">patas</li>
+          <li class="card__item">banho</li>
+          <li class="card__item">remédio</li>
+        </ul>
+      </div>
+    </section>
+    <section id="sobre">
+        <h2 class="sobre__titulo">Sobre</h2>
+        <p class="sobre__texto"><b>Lorem ipsum dolor</b> sit amet consectetur adipisicing elit. Quibusdam atque placeat, eos quidem excepturi odio fugiat? Tenetur neque quos itaque officia dolore, atque, incidunt animi, est ea nihil inventore iusto.</p>
+        <p class="sobre__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam atque placeat, eos quidem excepturi odio fugiat? Tenetur neque quos itaque officia dolore, atque, incidunt animi, est ea nihil inventore iusto.</p>
+        <p class="sobre__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam atque placeat, eos quidem excepturi odio fugiat? Tenetur neque quos itaque officia dolore, atque, incidunt animi, est ea nihil inventore iusto.</p>
+    </section>
+    <section id="contato">
+      <address class="cotato__conteudo">
+        <div class="contato__telefone">
+          <h2 class="contato__titulo">Contato</h2>
+          <p class="contato__texto">emergência 24hs</p>
+          <p class="contato__texto--numero">(88)55115-5712751</p>
+          <p class="contato__texto">comercial</p>
+          <p class="contato__texto--numero">(88)55115-5712751</p>
+          <p class="contato__texto contato__email">
+            <img src="./assets/icons/o-email.png" class="contato__email--img" alt="icone email">
+            <a href="mailto:contato@pepet.com"></a>contato@pepet.com
+          </p>
+        </div>
+        <div class="contanto__endereço">
+          <h2 class="contato__titulo">Endereço</h2>
+          <p class="contato__texto--endereco"><b>Rua dos Endereços 66<br>
+          Terra Nova,<br>
+          Tigres -CI, 98558-255</p>
+        </div>
+      </address>
+    </section>
+  </main>
+  <footer id="rodape">
+    <div class="rodape__nav">
+        <ul class="rodape__nav--lista">
+          <li class="rodape__nav--item">Home</li>
+          <li class="rodape__nav--item">Sobre</li>
+          <li class="rodape__nav--item">Serviços</li>
+          <li class="rodape__nav--item">Shop</li>
+          <li class="rodape__nav--item">Contato</li>
+          <li class="rodape__nav--item">Emergência</li>
+        </ul>
+      </div>
+      <div class="rodape__midia">
+        <ul class="rodape__midia--lista">
+          <li><a href="#" class="rodape__midia--link"><img src="./assets/icons/facebook.png" alt="Ícone do Facebook"></a></li>
+          <li><a href="#" class="rodape__midia--link"><img src="./assets/icons/instagram.png" alt="Ícone do Instagram"></a></li>
+        </ul>
+      </div>
+      <div class="rodape__logo">
+        <a href="#" class="rodape__logo--link"><img src="./assets/image/logo.png" class="rodape__logo--img" alt="Logo Pepet"></a>
+        <p>Os melhores serviços<br>priorizando o seu amor<br>pelo seu pet</p>
+      </div>
+      <div class="rodape_pagamento">
+        <p>Formas de pagamento</p>
+        <ul class="rodape__pagamento--lista">
+          <li><a href="#" class="rodape__pagamento--link"><img src="./assets/icons/mastercard.png" alt="Ícone do Mastercard"></a></li>
+          <li><a href="#" class="rodape__pagamento--link"><img src="./assets/icons/Visa.png" alt="Ícone do Visa"></a></li>
+          <li><a href="#" class="rodape__pagamento--link"><img src="./assets/icons/pix.png" alt="Ícone do Pix"></a></li>
+          <li><a href="#" class="rodape__pagamento--link"><img src="./assets/icons/elo.png" alt="Ícone do Elo"></a></li>
+          <li><a href="#" class="rodape__pagamento--link"><img src="./assets/icons/picpay.png" alt="Ícone do Picpay"></a></li>
+        </ul>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body> 
+</html>

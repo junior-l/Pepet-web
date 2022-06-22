@@ -1,0 +1,10 @@
+branco: #FFF;
+titulos: #00a3a2;
+icons-service: #f05900;
+subtitulos: #f05900;
+backgound: #00a3a2;
+    
+fonte-link: #0084FF;
+fonte-cinza: #666;
+bg-rodape: #ebebeb;
+

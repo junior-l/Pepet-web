@@ -38,7 +38,8 @@
 @media (min-width: 768px){
 
   #shop{
-    background: var(--shop-background)
+    background: var(--shop-background);
+    margin-bottom: 2rem;
   }
   .card__conteudo{
     display: flex;

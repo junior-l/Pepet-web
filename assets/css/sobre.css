@@ -17,3 +17,18 @@
   font-size:  .875rem;
   line-height: 1.3rem;
 }
+
+@media (min-width: 768px){
+  #sobre{
+    background-image: url(../image/veterinario\ tablet.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-x: right;
+    background-position-y: bottom;
+
+  }
+  .sobre__texto{
+    text-align: left;
+    width: 50%;
+  }
+}

@@ -1,6 +1,7 @@
 #shop{
   background-color: var(--shop-background);
   margin-bottom: 3rem;
+  
 }
 
 .shop__titulo{
@@ -31,4 +32,23 @@
 .card__item{
   font-size: .875rem;
   
+}
+
+/*  tablet  */
+@media (max-width: 768px){
+
+  #shop{
+    background: red;
+  }
+  .card__conteudo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .card__lista{
+    display: block;
+    font: 2rem;
+  }
 }

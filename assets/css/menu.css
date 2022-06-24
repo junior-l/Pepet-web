@@ -32,8 +32,9 @@
 
 
 
-/* a baixo de 600px */
+/* mobile */
 @media (max-width: 600px) { 
+
   
   #menu__btn{
     border: none;
@@ -103,8 +104,22 @@
   }
 }
 
+
+/*   tablet   */
+
 @media (max-width: 768px){
- 
+  
+  .menu__item--img{
+    float:left; 
+    position: relative; left: 280px; top: 5px;
+    width: 20px;
+  }
+  .menu__list a:nth-child(2){
+    color: red;
+    padding: .5rem 0;
+    
+  }
+
   #menu__btn{
     border: none;
     background: none;

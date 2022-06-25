@@ -7,14 +7,26 @@
 }
 
 /* navação */
+.rodape__nav{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .rodape__nav--lista{
-  display: inline-block;
-
+  display: flex;
+  justify-content:center;
+  align-items:  center;
+  gap: 0.5rem;
 
 }
 .rodape__nav--item{
+  border: none;
+  background-color: var(--shop-background);
+  box-shadow: 3px 2px 4px rgb(218, 217, 217);
+  border-radius: 5px;
   font-size: .875rem;
-  padding: .4rem;
+  color: #c9c9c9;
+  padding: .875rem;
+  width: 20%;
 }
 
 
@@ -39,12 +51,11 @@
 }
 .rodape__logo p{
   font-size: .8rem;
+  
 }
-
 
 .rodape__pagamento--lista{
   margin-top: .5rem;
- 
 }
 
 .rodape_pagamento li {
@@ -56,7 +67,8 @@
 
 
 .rodape_pagamento p{
-  font-weight: bold;
+  font-size: .875rem;
+  color: #8f8f8f;
 }
 
 .rodape__pagamento--link img{
@@ -75,21 +87,32 @@
     background-color: var(--bg-rodape);
     display: flex;
     flex-direction: row;
-    padding: 1rem;
+    padding: 2rem;
+    margin-top: .5rem;
   }
 
-  .rodape__nav{
-   text-align:left;
-  }
   
   .rodape__nav--lista{
-    display: block;
-   
+    align-items:  center;
+    display: flex;
+    gap: 0.5rem;
+    justify-content:center;
+    flex-direction: column;
+
   }
 
   .rodape__nav--item{
+    border: none;
+    background-color: var(--shop-background);
+    box-shadow: 3px 2px 4px #dad9d9;
+    border-radius: 5px;
     font-size: .875rem;
+    color: #c9c9c9;
+    padding: .875rem;
+    width: 100%;
+    
   }
+  
   
   .rodape__midia--lista{
     position: relative;

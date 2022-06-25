@@ -4,6 +4,7 @@
   justify-content: space-around;
   flex-direction: column;
   text-align: center;
+  padding: .5rem;
 }
 
 /* navação */

@@ -29,6 +29,9 @@
   font-size: .875rem;
   
 }
+.contato__mapa{
+  display: none;
+}
 
 @media (min-width: 768px){
   

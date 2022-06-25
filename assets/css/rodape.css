@@ -1,19 +1,20 @@
 #rodape{
   background-color: var(--bg-rodape);
   display: flex;
-  justify-self: space-around;
+  justify-content: space-around;
   flex-direction: column;
   text-align: center;
 }
 
 /* navação */
 .rodape__nav--lista{
-  margin-top: .5rem;
+  display: inline-block;
+
+
 }
 .rodape__nav--item{
-  display: inline-block;
-  padding: .5rem;
   font-size: .875rem;
+  padding: .4rem;
 }
 
 
@@ -70,5 +71,35 @@
  }
 
  @media (min-width: 768px){
+  #rodape{
+    background-color: var(--bg-rodape);
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
+
+  .rodape__nav{
+   text-align:left;
+  }
   
- }
+  .rodape__nav--lista{
+    display: block;
+   
+  }
+
+  .rodape__nav--item{
+    font-size: .875rem;
+  }
+  
+  .rodape__midia--lista{
+    position: relative;
+    top: 40%;
+  }
+  .rodape__logo{
+    align-self:  center;
+  }
+  .rodape__pagamento--lista, p{
+    position: relative;
+    top: 25%;
+  }
+}

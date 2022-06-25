@@ -68,3 +68,7 @@
 .rodape__pagamento--lista li:nth-child(2){
   position: relative; bottom: 12px; 
  }
+
+ @media (min-width: 768px){
+  
+ }

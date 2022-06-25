@@ -1,7 +1,7 @@
 #contato{
- text-align: center;
- margin-bottom: 3rem;
- 
+  text-align: center;
+  margin-bottom: 3rem;
+
 }
 .contato__telefone{
   margin-bottom: 2.5rem;
@@ -23,11 +23,43 @@
 .contato__email{
   margin-top: .5rem;
 }
-.contato__email--img{
-  width: 20px;
-}
+
 .contato__texto--endereco{
   line-height: 1.3rem;
   font-size: .875rem;
+  
+}
+
+@media (min-width: 768px){
+  
+  .contato__conteudo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 2rem;  
+  }
+
+  .contato__telefone{
+    margin-bottom: none;
+  }
+  .contato__email{
+    margin-top: none;
+  }
+  
+  .contato__telefone,
+  .contato__texto--numero{
+    text-align: left;
+    line-height: 1rem;
+  }
+  .contato__endereco{
+    text-align: left;
+    
+  }
+  .contato__mapa{
+    display: inline;
+    width: 100%;;
+    text-align: right;
+    margin-top: -300px;
+  }
 
 }

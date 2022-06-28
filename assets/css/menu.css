@@ -187,3 +187,26 @@
     
   }
 }
+
+@media (min-width: 1024px){
+
+  /*comentes*/
+  .menu__item{
+    font-size: 1rem;
+    padding: .2rem;
+    margin-left: 20px;
+  }
+  
+  .menu__item--img{
+    display: none;
+  }
+  
+  .menu__list a:nth-child(3n +1){
+    color: red;
+    background-color: darkgreen;
+
+    
+  }
+  
+  
+}

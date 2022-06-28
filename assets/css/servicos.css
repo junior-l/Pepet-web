@@ -40,12 +40,6 @@
   width: 140px;
   margin: 1%
 }
-.servicos__item:nth-child(1n){
-background-color: red;
-margin-left: 0;
-margin-right: 0;
-}
-
 
 .servicos__item--img{
   margin: 5px auto;

@@ -33,20 +33,27 @@
 @media (min-width: 1024px){
   .banner{
     margin-top: .5rem;
-    background-color: var(--backgound);
+    background-color: #e0ebf1;
     padding: 10rem;
-    background-image: url(/assets/image/background.png);
+    background-image: url(/assets/image/background-2.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right; 
-
+    background-size:contain;
+    background-position: right;
 
   }
   .banner__titulo,
   .banner__texto{
     color: var(--branco);
     text-align: left;
-    font-size: 2rem;
-    line-height: 2.5rem;
   }
+  .banner__titulo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+  .banner__texto{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
 }

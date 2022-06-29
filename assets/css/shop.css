@@ -48,15 +48,18 @@
     justify-content: space-between;
     margin: 0 2rem;
     padding-bottom: 2rem;
+   
 
   }
   .card{
     width: 50%;
+    border-radius: 10px;
   }
   
   .card__lista{
     display: block;
     font: 2rem;
+    
   }
   .card__titulo{
     text-align: center;
@@ -64,5 +67,6 @@
   .card__item{
     text-align: center;
     line-height: 2rem;
+    
   }
 }

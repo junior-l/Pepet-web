@@ -39,10 +39,10 @@
     margin-top: .5rem;
     background-color: #e0ebf1;
     padding: 10rem;
-    background-image: url(/assets/image/background-2.png);
+    background-image: url(/assets/image/background-3.jpg);
     background-repeat: no-repeat;
-    background-size:contain;
-    background-position: right;
+    background-size:cover;
+    background-position: center;
   }
  
   .banner__titulo,

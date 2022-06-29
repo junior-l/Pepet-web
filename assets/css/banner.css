@@ -28,5 +28,25 @@
   .banner__texto{
     color: var(--branco);
   }
+}
 
+@media (min-width: 1024px){
+  .banner{
+    margin-top: .5rem;
+    background-color: var(--backgound);
+    padding: 10rem;
+    background-image: url(/assets/image/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; 
+
+
+  }
+  .banner__titulo,
+  .banner__texto{
+    color: var(--branco);
+    text-align: left;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
 }

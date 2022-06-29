@@ -190,23 +190,45 @@
 
 @media (min-width: 1024px){
 
-  /*comentes*/
-  .menu__item{
-    font-size: 1rem;
-    padding: .2rem;
-    margin-left: 20px;
-  }
-  
-  .menu__item--img{
-    display: none;
-  }
-  
-  .menu__list a:nth-child(3n +1){
-    color: red;
-    background-color: darkgreen;
+    /*comentes*/
+    .menu__item{
+      font-size: 1rem;
+      padding: .2rem;
+      margin-left: 20px;
+    }
+    .menu__item:hover{
+      color: var(--font-titulos);
+    }
 
-    
+    .menu__item--emergencia{
+      margin-top: -8px;
+    }
+
+
+    .menu__item--img{
+      display: none;
+      width: 20px;
+      position: relative; left: -20px; top: 15px;
+    }
+
+
+    .menu__list a:nth-child(2){
+      color: red;
+      padding: .5rem 0;
+      
+      
+    }
+    .menu__list a:nth-child(2):hover{
+      
+      color: transparent;
+      border-radius: 10px;
+      border: 1px solid rgb(252, 170, 170);
+      background-image: url(/assets/icons/telefone.png);
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center;
+      padding: .5rem;
+      transition:  all .5s ;
+
+    }
   }
-  
-  
-}

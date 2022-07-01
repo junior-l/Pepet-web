@@ -33,7 +33,7 @@
 
 
 /* mobile */
-@media (max-width: 600px) { 
+@media screen and (max-width: 767px) { 
 
   
   #menu__btn{

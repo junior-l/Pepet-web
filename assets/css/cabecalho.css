@@ -3,20 +3,8 @@
       background-color: var(--branco);
       box-sizing: border-box;
       display: flex;
-      height: 70px;
+      height: 50px;
       justify-content: space-between;  
       padding: 1rem;
 }
 
-@media (min-width: 1024px) {
-      #cabecalho{
-            align-items: center;
-            background-color: var(--branco);
-            box-sizing: border-box;
-            display: flex;
-            height: 70px;
-            justify-content: space-between;  
-            padding: 1rem;
-            margin: 0 1rem;
-      }
-}

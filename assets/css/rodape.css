@@ -88,6 +88,9 @@ transition: all 1s;
   position: relative; bottom: 12px; 
  }
 
+
+
+ 
  @media (min-width: 768px){
   #rodape{
     background-color: var(--bg-rodape);

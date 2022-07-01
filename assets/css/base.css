@@ -1,15 +1,14 @@
 :root {
---branco: #FFF;
---backgound: #00a3a2;
+--branco: rgb(255, 255, 255);
 --bg-rodape: #ebebeb;
 --emergencia: #ED1C24;
---font-titulos: #00a3a2;
+--backgound: #00a3a2;
 --fonte-cinza: #666;
 --hamburger: #000000;
 --icons-bg:#f7f7f7;
 --icons-bg:#f7f7f7;
 --icons-service: #f05900;
 --preto: #000000;
---subtitulos: #f05900;
+--font-titulos: #f05900;
 --shop-background: rgb(250, 250, 250);
 }

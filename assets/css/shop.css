@@ -16,7 +16,7 @@
 }
 
 .card__titulo{
-  color: var(--subtitulos);
+  color: var(--font-titulos);
   font-size: 1rem;
   margin-bottom: 1.5rem;
   padding: 0;

@@ -1,17 +1,12 @@
 .banner{
-<<<<<<< HEAD
-  
   padding: 5rem 2rem;
   text-align: center;
-
-=======
   padding: 5rem 0rem;
   text-align: left;
   background-image: linear-gradient(80deg, #00a3a2 0, transparent 80%), url(../image/background-3.png);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
->>>>>>> 31dc3e8 (alterações na img do bg)
 }
 
 .banner__titulo{
@@ -20,7 +15,6 @@
   font-weight: bold;
   line-height: 1.7rem;
   margin-bottom: .5rem;
-  color: wi;
 }
 
 .banner__texto{
@@ -31,7 +25,6 @@
 /* tablet */
 @media (min-width: 768px){
   .banner{
-<<<<<<< HEAD
     background-color: var(--backgound);
     padding: 4rem 0 4rem 0;
   }
@@ -39,9 +32,7 @@
   .banner__texto{
     color: var(--branco);
   }
-=======
-    padding: 6rem 0rem;
-    background-image: linear-gradient(80deg, #00a3a2, transparent 50%);
+
 }
   .banner__titulo{
     font-size: 2rem;
@@ -56,26 +47,16 @@
   padding: 0 1.5rem;
   
 }
->>>>>>> 31dc3e8 (alterações na img do bg)
-}
+
 
 @media (min-width: 1024px){
   
   .banner{
     display: flex;
     flex-direction: column;
-    
     margin-top: none;
     background-color: #e0ebf1;
     padding: 10rem;
-<<<<<<< HEAD
-    background-image: url(/assets/image/background-3.jpg);
-=======
-    background-image: linear-gradient(80deg, #00a3a2, transparent 50%);
->>>>>>> 31dc3e8 (alterações na img do bg)
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
   }
  
   .banner__titulo,

@@ -25,7 +25,6 @@
 .servicos__lista{ /*ul*/
   display: flex;
   flex-wrap: wrap;
-  gap: .3rem;
   justify-content: space-between;
   margin-top: 1.5rem;
 }

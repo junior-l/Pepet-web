@@ -1,7 +1,7 @@
 .banner{
   padding: 5rem 0rem;
   text-align: left;
-  background-image: linear-gradient(80deg, #00a3a2 0, transparent 80%), url(/assets/image/background.jpg);
+  background-image: linear-gradient(80deg, #00a3a2 0, transparent 80%), url(../image/background.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;

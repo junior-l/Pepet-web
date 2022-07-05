@@ -1,9 +1,7 @@
 .banner{
-  padding: 5rem 2rem;
-  text-align: center;
   padding: 5rem 0rem;
   text-align: left;
-  background-image: linear-gradient(80deg, #00a3a2 0, transparent 80%), url(/assets/image/logo.png);
+  background-image: linear-gradient(80deg, #00a3a2 0, transparent 80%), url(/assets/image/background.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -11,16 +9,22 @@
 
 .banner__titulo{
   color: var(--font-titulos);
-  font-size: 1.5rem;
   font-weight: bold;
+  font-size: 1.7rem;
   line-height: 1.7rem;
   margin-bottom: .5rem;
 }
 
 .banner__texto{
-  font-size: .8rem;
-  line-height: 1rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: white;
 }
+.banner__titulo,
+.banner__texto{
+  margin-left: 10px;
+}
+
 
 /* tablet */
 @media (min-width: 768px){
@@ -33,7 +37,7 @@
     color: var(--branco);
   }
 
-}
+
   .banner__titulo{
     font-size: 2rem;
     line-height: 2rem;
@@ -47,7 +51,7 @@
   padding: 0 1.5rem;
   
 }
-
+}
 
 @media (min-width: 1024px){
   

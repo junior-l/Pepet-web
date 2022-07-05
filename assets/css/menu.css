@@ -84,7 +84,6 @@
     right: 0;
     text-align: center;
     transition: .6s;
-    top: 70px;
     visibility: hidden;/* inicia invisivel  e no ativo virsa visible*/
     width: 100%;
     z-index: 1000; /* os elementos do site ficam abaixo dele */

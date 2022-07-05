@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 .psd filter=lfs diff=lfs merge=lfs -text
+=======
+assets/image/background-3.psd filter=lfs diff=lfs merge=lfs -text
+is filter=lfs diff=lfs merge=lfs -text
+103.18 filter=lfs diff=lfs merge=lfs -text
+MB filter=lfs diff=lfs merge=lfs -text
+>>>>>>> e89817c (testando novamente)

@@ -8,7 +8,7 @@
 }
 
 .banner__titulo{
-  color: var(--font-titulos);
+  color: var(--branco);
   font-weight: bold;
   font-size: 1.7rem;
   line-height: 1.7rem;

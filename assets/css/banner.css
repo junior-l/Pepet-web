@@ -56,11 +56,9 @@
 @media (min-width: 1024px){
   
   .banner{
-    display: flex;
-    flex-direction: column;
+    background-image: linear-gradient(80deg, #00a3a2 0, transparent 40%), url(../image/background.jpg);
     margin-top: none;
-    background-color: #e0ebf1;
-    padding: 10rem;
+    padding: 8rem;
   }
  
   .banner__titulo,
@@ -72,7 +70,6 @@
     font-size: 3rem;
     font-weight: bold;
     line-height: 3rem;
-    color: aqua;
   }
   .banner__texto{
     font-size: 1rem;

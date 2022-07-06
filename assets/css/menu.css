@@ -189,13 +189,11 @@
 
     .menu__list{
         align-items: center;
-    }
- .menu__list a:nth-child(1){
-      color: none;
-      padding: .5rem 0;
-      
-      
-    } 
+}
+  .menu__list a:nth-child(1){
+        color: none;
+        padding: .5rem 0;
+} 
     .menu__list a:nth-child(2):hover{
       color: transparent;
       border-radius: 10px;
@@ -206,13 +204,14 @@
       background-position: center;
       padding: .5rem;
       transition:  all .5s ;
-
     }
+
     .menu__item{
       font-size: 1rem;
       padding: .2rem;
       margin-left: 20px;
     }
+    
     .menu__item:hover{
       color: var(--backgound);
     }

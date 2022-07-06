@@ -62,3 +62,16 @@
     
   }
 }
+
+
+@media (min-width: 1024px){
+  .servicos__lista{
+    flex-wrap: nowrap;
+    align-items:  left;
+    gap: 0;
+    justify-content: space-between; 
+    width: 80%;
+    margin: auto;
+  }
+
+}

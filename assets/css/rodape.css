@@ -57,7 +57,6 @@ transition: all 1s;
 }
 .rodape__logo p{
   font-size: .8rem;
-  
 }
 
 .rodape__pagamento--lista{
@@ -68,9 +67,7 @@ transition: all 1s;
   display: inline-block;
   margin-left: 5px;
   margin-bottom: 1.5rem;
- 
 }
-
 
 .rodape_pagamento p{
   font-size: .875rem;
@@ -79,14 +76,13 @@ transition: all 1s;
 
 .rodape__pagamento--link img{
   width: 35px;
-
 }
 .rodape__pagamento--lista li:nth-child(1){
- position: relative; bottom: 8px;
+  position: relative; bottom: 8px;
 }
 .rodape__pagamento--lista li:nth-child(2){
   position: relative; bottom: 12px; 
- }
+}
 
 
 
@@ -121,8 +117,7 @@ transition: all 1s;
     width: 100%;
     
   }
-  
-  
+
   .rodape__midia--lista{
     position: relative;
     top: 40%;
@@ -134,4 +129,27 @@ transition: all 1s;
     position: relative;
     top: 25%;
   }
+}
+
+@media (min-width: 1024px){
+  .rodape__midia--lista li{
+    width: 80px;
+  }
+  .rodape__midia img{
+      width: 50px;
+      gap: 5rem;
+  }
+  .rodape__logo img{
+    width:100px;
+  }
+  .rodape__logo p{
+    font-size: .8rem;
+  }
+  .rodape_pagamento p{
+    font-size: 1rem;
+  }
+  .rodape__pagamento--link img{
+    width: 50px;
+  }
+  
 }

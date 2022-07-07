@@ -32,3 +32,18 @@
     width: 50%;
   }
 }
+
+@media (min-width: 1024px){
+  #sobre{
+    padding: 9rem;
+    background-image: url(../image/veterinarios.png);
+    margin-bottom:5rem;
+    
+  }
+  .sobre__titulo{
+    font-size: 2rem;
+  }
+  .sobre__texto{
+    font-size:  1rem;
+  }
+}

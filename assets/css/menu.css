@@ -109,7 +109,7 @@
   
   .menu__item--img{
     float:left; 
-    position: relative; left: 280px; top: 5px;
+    position: relative; left: 400px; top: 5px;
     width: 20px;
   }
   .menu__list a:nth-child(2){

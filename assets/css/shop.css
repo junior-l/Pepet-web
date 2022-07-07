@@ -73,8 +73,8 @@
   .card__conteudo{
     display: flex;
     flex-wrap: nowrap;
-    gap: 1rem;
-    justify-content: space-around;
+    gap: 7rem;
+    justify-content: center;
     margin: 0 2rem;
     padding-bottom: 2rem;
   }

@@ -1,6 +1,7 @@
 #shop{
   background-color: var(--shop-background);
   margin-bottom: 3rem;
+  padding: 3rem 0;
   
 }
 

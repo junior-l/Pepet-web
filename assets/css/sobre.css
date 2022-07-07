@@ -2,6 +2,7 @@
   background-color: var(--backgound);
   margin-bottom:3rem;
   padding: 2rem;
+  margin-top: 2rem;
 }
 
 .sobre__titulo{
@@ -35,7 +36,7 @@
 
 @media (min-width: 1024px){
   #sobre{
-    padding: 9rem;
+    padding: 7.5rem;
     background-image: url(../image/veterinarios.png);
     margin-bottom:5rem;
     

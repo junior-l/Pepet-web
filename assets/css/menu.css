@@ -198,7 +198,7 @@
       color: transparent;
       border-radius: 10px;
       border: 1px solid rgb(252, 170, 170);
-      background-image: url(/assets/icons/telefone.png);
+      background-image: url(../icons/telefone.png);
       background-repeat: no-repeat;
       background-size: 30px;
       background-position: center;

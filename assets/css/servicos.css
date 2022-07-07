@@ -66,12 +66,12 @@
 
 @media (min-width: 1024px){
   .servicos__lista{
-    flex-wrap: nowrap;
-    align-items:  left;
-    gap: 0;
-    justify-content: space-between; 
-    width: 80%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+    width: 50%;
     margin: auto;
+    padding: 10px;
   }
 
 }

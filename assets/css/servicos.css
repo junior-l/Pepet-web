@@ -11,7 +11,7 @@
   font-size: 1.25rem;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 } 
 
 .servicos__titulo--texto{
@@ -59,22 +59,30 @@
     gap: .3rem;
     justify-content: center; /* alterie aqui*/
     margin-top: 1.5rem;
-    
   }
 }
 
 
 @media (min-width: 1024px){
+  #servicos{
+    padding:5rem ;
+  }
+  .servicos__titulo,
+.titulo__default{
+  font-size: 1.5rem;
+}
   .servicos__lista{
     flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center; 
+    gap: none;
+    justify-content:space-between; 
     width: 50%;
     margin: auto;
+
   }
   .servicos__item{ /*  LI */
-    padding: 1.8rem;
+    padding: 1rem;
   }
+
   .servicos__item--titulo{
     font-size: .875rem;
   }

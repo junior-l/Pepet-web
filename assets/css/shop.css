@@ -87,8 +87,11 @@
     padding: 0 0 3rem 0;
     width: 350px;
     height: 350px;
+    cursor: pointer;
   }
-
+  .card:hover{
+    border: .5px #f05900 solid;
+  }
   .card__lista{
     
     margin: 5px;

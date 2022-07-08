@@ -73,7 +73,7 @@
     margin-bottom: 5rem;
   }
   .contato__telefone, .contato__endereco{
-    margin-right: 50px;
+    margin-left: 50px;
   }
   .contato__mapa, iframe{
     width: 90%;

@@ -73,8 +73,8 @@
 }
   .servicos__lista{
     flex-wrap: wrap;
-    gap: none;
-    justify-content:space-between; 
+    gap: 10px;
+    justify-content:center; 
     width: 50%;
     margin: auto;
 

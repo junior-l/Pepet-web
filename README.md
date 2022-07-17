@@ -1,6 +1,9 @@
 ![logo Pepet](https://user-images.githubusercontent.com/82846802/175121675-f2ef0c02-d78d-4aaf-acd3-d7cab78dc025.png)
 
 # Pepet-web
+##Projeto Finalizado. Com muito alegria aqui esta um pouco do processo que tomei por fazer até o desenvolvimento web: 
+  https://www.behance.net/gallery/148315521/IDVisual-Desenvolvimento-Web-Pepet
+  
 ## Projeto Pepet
   Partindo da necessidade de produzir além de estudar criei esse projeto Pepet do zero desde a concepção e criação da logo envolvendo tipografia e cores, indo      para a criação de mockups até o processo de Ux criando a prototipação a partir do Photoshop por onde tenho mais facilidades por ser formado em Design Gráfico e masterizando no Adobe XD. Entrando logo após no processo da criação web aplicando como aprendi nas aulas da Alura o principio do Atomic Design e mobile first.  
   O Projeto Pepet ainda esta em progresso...
